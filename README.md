@@ -1,24 +1,24 @@
 
-Kerala Pothole Detection 
+# Kerala Pothole Detection 
 Basic Details
 
-Team Name: Baddiesss
+# # Team Name: Baddiesss
 
- Team Members
+ # # # Team Members
 
 Maria Bince – Mar athanascious college of engineering
 
 Sadiya Shamsuddin – Mar athanascious college of engineering
 
-#Hosted Project Link
+# # Hosted Project Link
 
 https://cjaogsegbnzutax6jnsas5.streamlit.app/
 
- #Project Description
+ # # Project Description
 
 Kerala Pothole Detection is an AI-powered road damage monitoring system built using computer vision and Streamlit. It allows citizens to upload road images or capture live camera input to detect potholes, assess severity, extract GPS location, generate official PDF reports, and visualize complaints on an interactive Kerala map dashboard.
 
-  Problem Statement
+ # # Problem Statement
 
 Potholes on roads in Kerala cause accidents, vehicle damage, and traffic disruption.
 
@@ -34,7 +34,7 @@ Have no centralized visualization system
 
 There is a need for an intelligent, automated road damage monitoring solution.
 
- The Solution
+# # The Solution
 
 We developed a computer vision-based system that:
 
@@ -52,9 +52,9 @@ Filters images containing human faces for privacy
 
 This creates a structured, transparent, and technology-driven complaint system.
 
-Technical Details
-Technologies / Components Used
-For Software
+# Technical Details
+# # Technologies / Components Used
+# # # For Software
 
 Language Used
 
@@ -90,28 +90,28 @@ Git
 
 GitHub
 
- Features
+# Features
 
- Citizen road image upload
+feature 1: Citizen road image upload
 
- Live camera pothole detection
+feature 2: Live camera pothole detection
 
- Smart severity classification
+ feature 3:Smart severity classification
 
- GPS extraction from image metadata
+ feature 4:GPS extraction from image metadata
 
- Automated official PWD-style PDF report generation
+ feature 5:Automated official PWD-style PDF report generation
 
- Interactive Kerala dashboard with severity markers
+ feature 6:Interactive Kerala dashboard with severity markers
 
- Face detection for privacy filtering
+ feature 7:Face detection for privacy filtering
 
- Risk score calculation (0–100 scale)
+ feature 8:Risk score calculation (0–100 scale)
 
- Complaint registration simulation
+ feature 9:Complaint registration simulation
 
- Implementation
-Installation
+ # Implementation
+# # Installation
 
 Clone the repository:
 
@@ -125,7 +125,7 @@ Run the Application
 streamlit run app.py
 
 The app will open in your browser automatically.
-
+# project documentation
  Citizen Upload Interface
 <img width="1217" height="673" alt="Screenshot 2026-02-28 080314" src="https://github.com/user-attachments/assets/b40c8377-f8df-493c-959b-94719b54ca7f" />=
 The system detects four pothole regions with a total relative damaged area of 2966, classifies the severity as LOW (adjustable by the user), and—since no GPS metadata was found—prompts retrieval of the current location (10.850500, 76.271100) while also displaying contextual data like recent rainfall for risk evaluation
@@ -149,7 +149,7 @@ A live camera interface that captures real-time video input to analyze road surf
 
 
 
- System Architecture
+# # System Architecture
 Architecture Overview
 
 User (Upload / Camera)
@@ -174,7 +174,7 @@ PDF Report Generation (ReportLab)
 ↓
 Dashboard Visualization (Folium Map)
 
- Application Workflow
+# # Application Workflow
 
 User uploads road image or captures live frame
 
@@ -202,8 +202,8 @@ LOW severity → Green marker
 
 Marker size proportional to risk score
 
- Project Demo
-
+# Project Demo
+# # video
 Video Link: https://drive.google.com/file/d/1GEOf-7k0CkQK7kxuhwfRkFJGmO9o063-/view?usp=sharing
 
 Demo showcases:
@@ -216,11 +216,11 @@ Generating official report
 
 Dashboard visualization
 
- AI Tools Used (Transparency)
+# AI Tools Used (Transparency)
 
 Tool Used: ChatGPT
 
-Purpose:
+# # Purpose:
 
 Debugging OpenCV logic
 
@@ -232,7 +232,7 @@ Documentation formatting
 
 Estimated AI-assisted code: ~20%
 
-Human Contributions:
+# # Human Contributions:
 
 System architecture design
 
@@ -244,9 +244,9 @@ UI logic and dashboard integration
 
 Testing and validation
 
- Team Contributions
+ # Team Contributions
 
-Maria Bince
+# # Maria Bince
 
 Computer vision implementation
 
@@ -258,7 +258,7 @@ Streamlit UI development
 
 Dashboard integration
 
-Sadiya Shamsuddin
+# # Sadiya Shamsuddin
 
 Testing and debugging
 
@@ -268,6 +268,6 @@ Feature validation
 
 Documentation
 
- License
+#  License
 
 This project is licensed under the MIT License.
