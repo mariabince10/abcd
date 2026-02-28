@@ -12,7 +12,7 @@ Sadiya Shamsuddin – Mar athanascious college of engineering
 
 #Hosted Project Link
 
-[Add your Streamlit Cloud / GitHub link here]
+https://cjaogsegbnzutax6jnsas5.streamlit.app/
 
  #Project Description
 
